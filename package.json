@@ -1,0 +1,28 @@
+{
+  "name": "retry-fetch",
+  "version": "1.0.0",
+  "description": "A utility to retry HTTP requests with exponential backoff.",
+  "main": "dist/umd/index.js",
+  "module": "dist/esm/index.mjs",
+  "scripts": {
+    "build": "rollup-scripts build",
+    "lint": "rollup-scripts lint",
+    "init": "rollup-scripts init"
+  },
+  "keywords": [
+    "fetch",
+    "retry",
+    "exponential",
+    "backoff"
+  ],
+  "author": "Babloo Mishra",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^16.9.0",
+    "node-fetch": "^2.6.1",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "rollup-scripts": "0.0.128"
+  }
+}
